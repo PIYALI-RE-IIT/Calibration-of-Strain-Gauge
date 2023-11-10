@@ -1,32 +1,60 @@
 ## Theory
 
- A sine bar is a type of precision measuring tool used for accurate measurement of angles and, in particular, for inspecting the taper of workpieces. The idea behind a sine bar is based on trigonometry, where the precise taper angle can be calculated from the sine of the angle created between the sine bar and the workpiece. A sine bar is used in conjunction with slip gauge blocks for precise angular measurements. A sine bar is used either to measure an angle very accurately or face locate any work to a given angle. Sine bars are made from a high chromium corrosion-resistant steel and are hardened, precision ground, and stabilized. Two cylinders of equal diameter are placed at the ends of the bar. The axes of these two cylinders are mutually parallel to each other and are also parallel to, and at equal distance from, the upper surface of the sine bar. Accuracy up to 0.01 mm/m of the length of the sine bar can be attained. A sine bar is generally used with slip gauge blocks. The sine bar forms the hypotenuse of a right triangle, while the slip gauge blocks form the opposite side. The height of the slip gauge block is found by multiplying the sine of the desired angle by the length of the sine bar: H = L &times; sin(θ).  
+Strain gauges are widely used instruments for measuring mechanical deformation or strain in materials. They are based on the principle that the electrical resistance of a conductor changes when subjected to mechanical strain. Calibration of strain gauges is essential to establish a relationship between the applied load and the resulting resistance change. This calibration process allows for the accurate determination of strain values in practical applications. In this experiment, we will explore the fundamental concepts and procedures for strain gauge calibration.
 
-Some important considerations of a Sine bar are as follows:
+**1. Principles of Strain Measurement:**
 
-1. Sine Principle: The sine bar operates on the sine principle, which is based on the trigonometric relationship between the sine of an angle and the length of the opposite side. The key relationship used is:
+**1.1 Piezoresistive Effect**
 
-<div align="center">
-<img class="img-fluid"  src="./images/img1.png" alt=""><br>           
-</div>
+The piezoresistive effect forms the basis for strain gauge operation. When a conductor, typically a metal foil or semiconductor, is subjected to mechanical strain, its electrical resistance changes. This change in resistance is proportional to the strain experienced by the material. This property is exploited for accurate measurement of strain. 
+
+**1.2 Wheatstone Bridge Circuit**
+
+Strain gauges are often used in conjunction with Wheatstone bridge circuits (as shown in Figure 1). A Wheatstone bridge is a network of four resistive arms arranged in a diamond shape. The strain gauge is one of these resistive arms. When strain is applied to the gauge, it changes its resistance, causing an imbalance in the bridge circuit. The resulting voltage output, known as the bridge output, is proportional to the change in resistance and, consequently, the strain.
+
+The equation for the output voltage (Vout) of a Wheatstone bridge is as follows:
+
+$$V_{out} = \frac{V_{in}*(\frac{\Delta R}{R})}{S}$$
 
 Where:
 
-- θ is the angle to be measured (taper angle);
+Vout is the output voltage.
 
-- H is the height difference between the two ends of the sine bar.
+Vin is the excitation voltage applied to the bridge.
 
-- L is the distance between the centers of the sine bar's cylindrical surfaces.
+&Delta;R is the change in resistance of the strain gauge.
 
-1. Workpiece Clamping: To measure the taper of a workpiece using a sine bar, the workpiece is securely clamped at the center of the sine bar, ensuring that the taper to be measured rests on the flat surface of the sine bar.
+R is the initial resistance of the strain gauge (unstressed).
 
-2. Height Adjustment: The sine bar needs to be set up so that its upper and lower ends are parallel to the workpiece's taper. This is achieved by placing precision gauge blocks under one end of the sine bar. The height of these gauge blocks is carefully chosen to ensure parallelism.
+S is the sensitivity factor of the strain gauge, which relates the change in resistance to the applied strain. It is typically specified by the manufacturer and is given in units like mV/V.
 
-<div align="center">
-<img class="img-fluid"  src="./images/img2.jpeg" alt=""><br>           
-</div>
+**2. Calibration Process:**
 
-In this experiment, a sine bar is used to gauge the taper of a workpiece.
+**2.1 Zeroing the System**
+
+Before calibration, it is crucial to zero the system. This step involves adjusting the bridge circuit to achieve a balanced, zero-voltage output when no strain is applied to the gauge. This ensures that the initial resistance value of the strain gauge is properly balanced.
+
+**2.2 Application of Known Loads**
+
+In the calibration process, known loads are applied to the specimen to which the strain gauge is attached. As the load increases, the strain gauge experiences strain, leading to a change in its resistance. The bridge circuit detects this change and produces a voltage output corresponding to the applied load.
+
+
+
+**2.3 Data Collection**
+
+Data is collected by measuring the voltage output from the Wheatstone bridge circuit as a function of the applied load. Multiple data points are typically collected by varying the load in a stepwise fashion. These data points are used to create a calibration curve.
+
+**2.4 Calibration Curve**
+
+The calibration curve is a graphical representation of the relationship between the applied load and the resulting voltage output. Typically, the curve exhibits a linear relationship, allowing for the use of linear regression to find the equation that relates load and voltage output. The slope of this line represents the sensitivity of the strain gauge.
+
+**Sensitivity**
+
+Sensitivity (S) is a critical parameter in strain gauge calibration. It is defined as the change in voltage output per unit load and is usually expressed in units of millivolts per volt (mV/V) per unit load (e.g., N or kg). The sensitivity value determines the strain gauge's ability to convert mechanical strain into an electrical signal.
+
+**Linearity**
+
+The linearity of the calibration curve is essential to ensure that the strain gauge provides accurate measurements over a range of loads. A linear calibration curve indicates that the gauge's sensitivity remains consistent within the tested range of loads.
 				
 
 						
