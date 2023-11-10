@@ -1,4 +1,4 @@
 ## Aim of the experiment
 
-To measure the taper using a sine bar.
+To calibrate a strain gauge.
                 

@@ -2,58 +2,58 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the primary principle the sine bar relies on to precisely measure angles?",
+      "question": "Which principle is the basis for the operation of a strain gauge?",
       "answers": {
-        "a": "Cosine Principle",
-        "b": "Sine Principle",
-        "c": "Tangent Principle",
-        "d": "Arc Length Principle"
+        "a": "Piezoelectric effect",
+        "b": "Piezoresistive effect",
+        "c": "Photoelectric effect",
+        "d": "Magnetic resonance"
       },
       "correctAnswer": "b",
       "difficulty": "Beginner"
     },
     {
-      "question": "Which of the following components are typically found in a sine bar?",
+      "question": "What is the function of Wheatstone bridge circuit in strain gauge measurements?",
       "answers": {
-        "a": "Vernier Scale and Spirit Level",
-        "b": "Protractor and Vernier Caliper",
-        "c": "Cylindrical, flat, and parallel surfaces",
-        "d": "Compass and Ruler"
+        "a": "Amplify the strain signal",
+        "b": "Provide power to the strain gauge",
+        "c": "Compensate for temperature changes",
+        "d": "Detect and measure changes in resistance"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "d",
       "difficulty": "Beginner"
     },
     {
-      "question": "In the context of measuring taper using a sine bar, what is the role of gauge blocks?",
+      "question": "What is the purpose of applying known loads during strain gauge calibration?",
       "answers": {
-        "a": "Measure the length of the taper.",
-        "b": "Set the height of the sine bar for parallelism.",
-        "c": "Measure the angle of the taper directly.",
-        "d": "Calibrate the sine bar."
+        "a": "To measure strain directly",
+        "b": "To test the strain gauge's durability",
+        "c": "To determine the resistance of the gauge",
+        "d": "To establish a relationship between load and resistance change"
+      },
+      "correctAnswer": "d",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "The calibration curve of a strain gauge is typically:",
+      "answers": {
+        "a": "Non-linear",
+        "b": "Exponential",
+        "c": "S-shaped",
+        "d": "Linear"
+      },
+      "correctAnswer": "d",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What does the sensitivity of a strain gauge represent?",
+      "answers": {
+        "a": "The strain it can measure",
+        "b": "The change in resistance per unit load",
+        "c": "Its resistance when no load is applied",
+        "d": "Its temperature stability"
       },
       "correctAnswer": "b",
-      "difficulty": "Beginner"
-    },
-    {
-      "question": "Which instrument is commonly used to measure minor deviations from flatness while measuring taper using a sine bar?Which instrument is commonly used to measure minor deviations from flatness while measuring taper using a sine bar?",
-      "answers": {
-        "a": "Vernier Caliper",
-        "b": "Micrometer",
-        "c": "Dial Indicator",
-        "d": "Spirit Level"
-      },
-      "correctAnswer": "c",
-      "difficulty": "Beginner"
-    },
-    {
-      "question": "Which industries commonly use a Sine bar for taper measurement for quality control?",
-      "answers": {
-        "a": "Fashion and Apparel",
-        "b": "Food and Beverage",
-        "c": "Manufacturing and Engineering",
-        "d": "Entertainment and Media"
-      },
-      "correctAnswer": "c",
       "difficulty": "Beginner"
     }
   ]

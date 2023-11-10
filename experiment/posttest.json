@@ -2,58 +2,58 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Why do we use Sine bars to find angles?",
+      "question": "Which of the following is used to measure mechanical strain?",
       "answers": {
-        "a": "To measure length accurately",
-        "b": "To measure temperature variations",
-        "c": "To set workpieces at specific angles",
-        "d": "To find surface roughness"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Which type of workpieces are commonly measured using a sine bar?",
-      "answers": {
-        "a": "Round objects",
-        "b": "Flat objects",
-        "c": "Irregularly shaped objects",
-        "d": "Hollow objects"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "What are the sources of errors in sine bars?",
-      "answers": {
-        "a": "Human fatigue and weather conditions",
-        "b": "Imperfections in the surface plate, wear in the sine bar, deviations in slip gauges, levelling issues",
-        "c": "Inadequate lighting and tool calibration",
-        "d": "Material defects and chemical reactions"
+        "a": "Thermocouple",
+        "b": "Strain Gauge",
+        "c": "Pressure Transducer",
+        "d": "Hall Effect Sensor"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "If you have a sine bar with a length of 250 mm. and you placed a 20 mm thick slip gauge under one end to measure a specific angle. What angle does the sine bar make with the reference surface?",
+      "question": "Which of the following factors can affect the accuracy of strain gauge measurements?",
       "answers": {
-        "a": "7.2 degrees",
-        "b": "8 degrees",
-        "c": "8.13 degrees",
-        "d": "9.12 degrees"
+        "a": "Length of the lead wires",
+        "b": "Color of the strain gauge",
+        "c": "Temperature variations",
+        "d": "Ambient humidity levels"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "If you are using a sine bar with a length of 300 mm. and, you have to use a slip gauge of 25 mm thickness at one end to set an angle of 15 degrees. What will be the height of the slip gauge needed at the other end to achieve this angle?",
+      "question": "What is the significance of a Poisson's ratio in strain gauge measurements?",
       "answers": {
-        "a": "35 mm",
-        "b": "45 mm",
-        "c": "50 mm",
-        "d": "60 mm"
+        "a": "It relates strain in one direction to strain in another direction",
+        "b": "It determines the electrical resistance of the strain gauge",
+        "c": "It measures the temperature sensitivity of the strain gauge",
+        "d": "It represents the gauge's resistance to environmental factors"
       },
-      "correctAnswer": "b",
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a common method to measure strain in a material without using strain gauges?",
+      "answers": {
+        "a": "Ultrasonic testing",
+        "b": "Magnetic resonance imaging (MRI)",
+        "c": "X-ray diffraction",
+        "d": "Laser interferometry"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A strain gauge exhibits an initial resistance of 100 ohms and undergoes a change in resistance of 2.5 ohms when subjected to a strain. If the excitation voltage (Vs) is 12 volts, what will be the output voltage (V) of the strain gauge?",
+      "answers": {
+        "a": "100 millivolts",
+        "b": "200 millivolts",
+        "c": "260 millivolts",
+        "d": "300 millivolts"
+      },
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
