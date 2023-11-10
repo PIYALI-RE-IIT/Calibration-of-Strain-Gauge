@@ -2,22 +2,32 @@
 
 **Schematic of the Plant**
 <div align="center">
-<img class="img-fluid"  src="./images/plant.png" alt=""><br>           
+<img class="img-fluid"  src="./images/conn.jpg" alt=""><br> 
+Figure 1. Strain-gauge circuit.          
 </div>
 
 
-**Steps to perform the simuation**
+- Clean the surface where the strain gauge will be attached thoroughly to remove dirt, grease, or contaminants.
+- Gently place the strain gauge onto the sample surface. Ensure that the gauge is aligned properly with the intended strain direction. Apply gentle pressure to the gauge to ensure proper adhesion.
+- Connect the strain gauge to the Wheatstone bridge circuit as shown in Fig.1. Ensure the gauge's lead wires are securely attached to the appropriate terminals. Connect the Wheatstone bridge circuit to the multimeter, which shows the output voltage V<sub>O</sub>.
+- Turn on the power supply (V<sub>S</sub>) and set it to the appropriate voltage. Adjust the Wheatstone bridge's balance resistor(s) until the multimeter reads zero.
+- Apply known loads incrementally to the material using adjustable weights or loads. Record the readings from the multimeter for each load increment.
+- Record all data obtained during the calibration process. Plot a graph of applied load versus strain.
 
-1. The experiment began with selecting the surface plate as the datum surface.
+|**Applied load (N)**|**Voltage (V)**|
+| :-: | :-: |
+|0|0|
+|100|0\.24|
+|200|0\.47|
+|300|0\.68|
+|400|0\.91|
+|500|1\.13|
 
-2. The component, whose angle required evaluation, was securely affixed to the sine bar, and both were positioned on the surface plate.
+<div align="center">
+<img class="img-fluid"  src="./images/plot.jpg" alt=""><br> 
+Figure 2. Output voltage versus load.         
+</div>
 
-3. The sine bar and the component were positioned at an approximate angle by introducing a known-size slip gauge at one end of the sine bar, aligning the tapered side of the component with the surface plate. The complete contact between the slip gauge was done by wringing. Wringing is done by hand by sliding and twisting motions.  One gauge is placed perpendicular to the other using standard gauging pressure, and then a rotary motion is applied until the blocks are lined up.  In this way air is expelled from between the gauge faces, causing the blocks to adhere.
-
-4. A dial gauge, affixed to a suitable stand, was situated adjacent to the sine bar to ensure the plunger glided smoothly along the component's surface. The dial gauge was calibrated to zero at one end.
-
-5. The same dial gauge was moved over its surface from one end to another and the deflection reading was recorded. The height of the slip gauges beneath the one end of sine bar was adjusted until the dial gauge indicated zero deflection over the entire workpiece surface. 
-
-6. The taper angle of the component was subsequently determined using the prescribed formula.
+The Plot of the output voltage versus load shows a linear relationship. This strain gauge can measure the strain while an unknown load is applied to the sample.
 
   

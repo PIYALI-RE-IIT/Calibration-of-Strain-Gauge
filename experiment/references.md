@@ -1,11 +1,10 @@
 ## References
 
 #### Books
-1. LamNgeun Virasak, 2017, Manufacturing Processes 4-5, Open Oregon
-
-2. Venkateshan, S.P., 2015. Mechanical measurements. John Wiley & Sons.
-
+1. Keil, S. (2017). Technology and practical use of strain gages: with particular consideration of stress analysis using strain gages. John Wiley & Sons.
 
 #### websites
 
 1. NPTEL (e-learning courses from IITs and IISC)
+
+2. https://www.electrical4u.com/strain-gauge/
