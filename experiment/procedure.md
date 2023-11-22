@@ -1,33 +1,29 @@
 ## Procedure
 
-**Schematic of the Plant**
+
 <div align="center">
 <img class="img-fluid"  src="./images/conn.jpg" alt=""><br> 
-Figure 1. Strain-gauge circuit.          
+Figure 1. Strain-gauge circuit         
 </div>
 
 
-- Clean the surface where the strain gauge will be attached thoroughly to remove dirt, grease, or contaminants.
-- Gently place the strain gauge onto the sample surface. Ensure that the gauge is aligned properly with the intended strain direction. Apply gentle pressure to the gauge to ensure proper adhesion.
-- Connect the strain gauge to the Wheatstone bridge circuit as shown in Fig.1. Ensure the gauge's lead wires are securely attached to the appropriate terminals. Connect the Wheatstone bridge circuit to the multimeter, which shows the output voltage V<sub>O</sub>.
-- Turn on the power supply (V<sub>S</sub>) and set it to the appropriate voltage. Adjust the Wheatstone bridge's balance resistor(s) until the multimeter reads zero.
-- Apply known loads incrementally to the material using adjustable weights or loads. Record the readings from the multimeter for each load increment.
-- Record all data obtained during the calibration process. Plot a graph of applied load versus strain.
-
-|**Applied load (N)**|**Voltage (V)**|
-| :-: | :-: |
-|0|0|
-|100|0\.24|
-|200|0\.47|
-|300|0\.68|
-|400|0\.91|
-|500|1\.13|
+1. First switch on the Strain Measurement Trainer kit by clicking on 'Power' button. 
 
 <div align="center">
-<img class="img-fluid"  src="./images/plot.jpg" alt=""><br> 
-Figure 2. Output voltage versus load.         
+<img class="img-fluid"  src="./images/conn2.jpg" alt=""><br> 
+ Strain Measurement Trainer Kit in simulation          
 </div>
 
-The Plot of the output voltage versus load shows a linear relationship. This strain gauge can measure the strain while an unknown load is applied to the sample.
+2. Click on 'Table' at the bottom of the page to see the observation table and click on 'Add to Table' button to observe the strain without load. Some non zero value will come due to
+the sensitivity of strain gauge.
 
-  
+3. Add 100g load to the cantilever beam by clicking on 'Plus' sign on 'Add or Remove Load' button and follow step 2 to get observation for the particular load. 
+
+4. Vary the loads from 100g to 500g by clicking on 'Plus' sign on 'Add or Remove Load' button and follow step 2 to get observation data after each time increasing the load.
+
+5. Click on 'Plot' button to get the plot between 'Output Voltage' Vs. 'Applied load'.
+
+6. Remove the loads one by one by clicking on 'Minus' sign on 'Add or Remove Load' button and switch off the trainer kit.
+
+7. Click on 'Clear' button to erase the observation data and plot. Click on 'Table' button to hide the observation table.
+
